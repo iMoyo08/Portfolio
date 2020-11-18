@@ -26,13 +26,16 @@ ol{
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border: solid #999;
+    border-radius: 24px;
 }
 #header{
-    background-color:rgba(34, 34, 141, 0.8);
+    background-color:#1257c0;
     color: white;
     text-align: center;
     padding: 10px;
-    border:dotted;
+    border:solid;
+    border-radius: 24px;
 }
 #content{
     padding: 10px;
@@ -70,21 +73,30 @@ ol{
     outline: none;
     margin-bottom:14px;
   }
-  .contact__button{
-    background-color:rgba(34, 34, 141, 0.8);  
-    color: white;
+  input[type = "submit"]{
+    border: 0;
+    background: #1257c0;
     display: block;
-    border-radius: 20;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 14px 40px;
     outline: none;
-    font-size:16px;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
     cursor: pointer;
-    margin-left: auto;
-  }
+
+}
+input[type = "submit"]:hover{
+    background: #7b828d;
+}
 #footer{
     clear: both;
     padding: 10px;
     background-color: grey;
     color: white;
     text-align: right;
+    border-radius: 24px;
 
 }
