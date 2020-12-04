@@ -5,7 +5,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: pink;
+    color: red;
 }
 a:hover{
     color:black;
